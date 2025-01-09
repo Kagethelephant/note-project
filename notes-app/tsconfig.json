@@ -3,5 +3,12 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+
+  "compilerOptions": {
+    "module": "commonjs", //defines how modules will be resolved
+    "outDir": "dist", // put code in a different dist directory
+    "strict": true, //strict type check enabled
+    "target": "es2016" //copiler ability to es2016 and beyond
+  }
 }
