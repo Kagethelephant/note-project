@@ -26,3 +26,9 @@ to open a databse type `USE databaseName;`
 to show all the tables `SHOW TABLES;`
 to show contents of table `SELECT * FROM tableName`
 to add entry to table ` INSERT INTO tableName (column1,column2,...) VALUES (value1,value2,...)`
+
+you can use `curl` to make api calls but it sounds like postman is a better option
+
+*If we used postgre then we would be using a common stack PERN, for PostgreSQL - Express - React - Node*
+
+
